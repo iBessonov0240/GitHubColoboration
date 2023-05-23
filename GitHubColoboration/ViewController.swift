@@ -14,6 +14,10 @@ class ViewController: UIViewController {
     
     }
 
+    func setupView() {
+        let newView = UIView()
+        view.addSubview(newView)
+    }
 
 }
 
